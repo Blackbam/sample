@@ -1,4 +1,5 @@
-namespace Blackbam/Sample;
+<?php
+namespace Sample;
 
 class Sample {
 

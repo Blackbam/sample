@@ -3,11 +3,22 @@
     "type": "bflib",
     "description": "Sample library for tests with composer.",
     "keywords": ["sample"],
-    "homepage": "https://github.com/Blackbam/sample",
-    "require": {
-        "php": ">=5.3.0"
+    "homepage": "https://www.blackbam.at/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David St\u00f6ckl",
+            "email": "admin@blackbam.at",
+            "homepage": "https://www.blackbam.at/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sample\\": "src/"
+        }
     },
     "require": {
+        "php": ">=7.4",
         "composer/installers": ">1.0"
     }
 }
