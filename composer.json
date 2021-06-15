@@ -1,6 +1,13 @@
 {
-    "name": "Blackbam/sample",
+    "name": "blackbam/sample",
     "type": "bflib",
+    "description": "Sample library for tests with composer.",
+    "keywords": ["sample"],
+    "homepage": "https://github.com/Blackbam/sample",
+    "license": "GPLv3",
+    "require": {
+        "php": ">=5.3.0"
+    },
     "require": {
         "composer/installers": "~1.0"
     }
